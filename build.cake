@@ -9,7 +9,7 @@ const string ENGINE_API_PACKAGE_ID = "TestCentric.Engine.Api";
 const string TEST_BED_EXE = "test-bed.exe";
 
 // Load the recipe
-#load nuget:?package=TestCentric.Cake.Recipe&version=1.0.0-dev00043
+#load nuget:?package=TestCentric.Cake.Recipe&version=1.0.0-dev00044
 // Comment out above line and uncomment below for local tests of recipe changes
 //#load ../TestCentric.Cake.Recipe/recipe/*.cake
 
@@ -26,6 +26,7 @@ BuildSettings.Initialize(
 	Context,
 	"TestCentric.Engine",
 	solutionFile: "testcentric-engine.sln",
+	githubRepository: "testcentric-engine",
 	unitTests: "engine-tests/**/*.tests.exe|engine-tests/**/*.tests.dll");
 
 if (BuildSystem.IsRunningOnAppVeyor)
