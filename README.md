@@ -1,5 +1,9 @@
 ﻿# TestCentric Test Engine
 
+**THIS REPOSITORY IS NO LONGER MAINTAINED OR UPDATED**
+
+**The TestCentric Engine is now part of the TestCentricRunner repository.**
+
 [![Build status](https://ci.appveyor.com/api/projects/status/i7ymql47e8bo2rel/branch/main?svg=true)](https://ci.appveyor.com/project/CharliePoole/testcentric-engine/branch/main)
 
 The **TestCentric Test Engine** was originally created to support the **TestCentric GUI** and was
